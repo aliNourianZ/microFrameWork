@@ -1,5 +1,9 @@
 <?php
 use App\Core\Routing\Route;
+Route::get('/' , 'homeController@index');
+Route::get('/archive', 'archiveController@index');
+Route::get('/archive/products', 'archiveController@products');
+Route::get('/archive/articles', 'archiveController@articles');
 Route::add(['get','post'],"/",function(){
     echo "welcome";
 });

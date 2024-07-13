@@ -22,6 +22,7 @@ include "bootstrap/init.php";
 // echo $request->ip(). "<br>";
 // echo $request->name;
 $router = new Router();
+$router->run();
 
 ?>
 <link rel="stylesheet" href="<?= Asset::css("style.css") ?>">  <!--- we can use assets_url() function in helpers too --->

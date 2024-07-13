@@ -1,6 +1,6 @@
 <?php
 use App\Core\Request;
-define('BASEPATH',__DIR__."/../");
+define('BASEPATH',__DIR__ ."/../");
 include BASEPATH . "/vendor/autoload.php"; 
 
 $dotenv = Dotenv\Dotenv::createImmutable(BASEPATH);
